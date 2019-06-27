@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/frgStaticFragment"
+        android:name="com.example.fragments.RedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+    </fragment>
+
+    <FrameLayout
+        android:id="@+id/frmPlaceHolderOne"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </FrameLayout>
+
+    <FrameLayout
+    android:id="@+id/frmPlaceHolderTwo"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frmPlaceHolderThree"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+    </FrameLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pop Back Stack"
+        android:onClick="onClick"/>
+
+</LinearLayout>

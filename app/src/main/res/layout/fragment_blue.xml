@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlueFragment"
+    android:orientation="vertical"
+    android:background="#56B1C9">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="#FFFFFF"
+        android:hint="@string/please_enter_your_social_security_number_to_avoid_late_penalty"/>
+
+    <Button
+        android:id="@+id/btnSendNudes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:text="@string/send_nudes_now"/>
+
+</LinearLayout>
